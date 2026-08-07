@@ -35,9 +35,6 @@ https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
 #EXTINF:-1 tvg-id="AHaber.tr" tvg-logo="" group-title="Haber",A Haber
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
 
-#EXTINF:-1 tvg-id="CNNTurk.tr" tvg-logo="" group-title="Haber",CNN Türk
-https://live.duhnet.tv/S2/HLS_LIVE/cnnturknp/track_0_192/playlist.m3u8?&live=true&app=com.cnnturk&st=rHRHs_0k6xlb8vaa7gTTwg&e=1785835423
-
 #EXTINF:-1 tvg-id="HaberturkTV.tr" tvg-logo="" group-title="Haber",Habertürk
 https://tv.ensonhaber.com/haberturk/haberturk.m3u8
 
@@ -62,6 +59,9 @@ https://tv-trthaber.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="ASpor.tr" tvg-logo="" group-title="Spor",A Spor
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
 
+#EXTINF:-1 tvg-id="TLC.tr" tvg-logo="" group-title="Genel",TLC
+https://dogus.daioncdn.net/tlc/tlc.m3u8?app=1aca0aa1-06e3-41ff-a8e5-38d7df475469
+
 #EXTINF:-1 tvg-id="TRTSpor.tr" tvg-logo="" group-title="Spor",TRT Spor
 https://tv-trtspor1.medya.trt.com.tr/master.m3u8
 
@@ -83,8 +83,8 @@ https://tv-trtworld.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="Kanal7.tr" tvg-logo="" group-title="Dini",Kanal 7
 https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8
 
-#EXTINF:-1 tvg-id="EuroD.tr" tvg-logo="" group-title="Müzik",Euro D
-https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
+#EXTINF:-1 tvg-id="Aksu.tr" group-title="Yerel",AKSU TV
+https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="TRTCocuk.tr" tvg-logo="" group-title="TRT",TRT Çocuk
 https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
@@ -100,3 +100,6 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
 
 #EXTINF:-1 tvg-id="DisneyJr.tr" tvg-logo="" group-title="Çocuk",Disney Jr.
 https://saran-live.ercdn.net/disneyjunior/index.m3u8
+
+#EXTINF:-1 tvg-id="STOON.tr" tvg-logo="" group-title="Çocuk",SPACE TOON
+https://spacetoon-prod-dub-ak.akamaized.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8

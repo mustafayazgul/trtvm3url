@@ -47,9 +47,6 @@ https://ciner.daioncdn.net/bloomberght/bloomberght.m3u8
 #EXTINF:-1 tvg-id="TGRTHaber.tr" tvg-logo="" group-title="Haber",TGRT Haber
 https://canli.tgrthaber.com/tgrt.m3u8
 
-#EXTINF:-1 tvg-id="SozcuTV.tr" tvg-logo="" group-title="Haber",Sozcu TV.
-https://www.youtube.com/@Sozcutelevizyonu/streams
-
 #EXTINF:-1 tvg-id="HalkTV.tr" tvg-logo="" group-title="Haber",Halk TV
 https://halktv-live.daioncdn.net/halktv/halktv.m3u8
 
@@ -74,9 +71,6 @@ https://tv-trtspor2.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTBelgesel.tr" tvg-logo="" group-title="TRT",TRT Belgesel
 https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
 
-#EXTINF:-1 tvg-id="TRTCocuk.tr" tvg-logo="" group-title="TRT",TRT Çocuk
-https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
-
 #EXTINF:-1 tvg-id="TRTMuzik.tr" tvg-logo="" group-title="TRT",TRT Müzik
 https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 
@@ -89,19 +83,10 @@ https://tv-trtworld.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="Kanal7.tr" tvg-logo="" group-title="Dini",Kanal 7
 https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8
 
-#EXTINF:-1 tvg-id="Kanal7Avrupa.tr" tvg-logo="" group-title="Dini",Kanal 7 Avrupa
-https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8
-
-#EXTINF:-1 tvg-id="DiyanetTV.tr" tvg-logo="" group-title="Dini",Diyanet TV
-https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-id="KralPopTV.tr" tvg-logo="" group-title="Müzik",Kral Pop TV
-https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
-
 #EXTINF:-1 tvg-id="EuroD.tr" tvg-logo="" group-title="Müzik",Euro D
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TRTCocuk2.tr" tvg-logo="" group-title="Çocuk",TRT Çocuk
+#EXTINF:-1 tvg-id="TRTCocuk.tr" tvg-logo="" group-title="TRT",TRT Çocuk
 https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="TRTDiyanetCocuk.tr" tvg-logo="" group-title="Çocuk",TRT Diyanet Çocuk

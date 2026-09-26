@@ -80,6 +80,9 @@ https://tv-trtavaz.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr" tvg-logo="" group-title="TRT",TRT World
 https://tv-trtworld.medya.trt.com.tr/master.m3u8
 
+#EXTINF:-1 tvg-id="TRTTurk.tr" tvg-logo="" group-title="TRT",TRT Türk
+https://tv-trtturk.medya.trt.com.tr/master.m3u8
+
 #EXTINF:-1 tvg-id="Kanal7.tr" tvg-logo="" group-title="Dini",Kanal 7
 https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8
 

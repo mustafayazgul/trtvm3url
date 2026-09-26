@@ -7,6 +7,10 @@
 # NOT: ARB Güneş TV, üçüncü taraf bir yayın altyapısı (canlitv.fun) üzerinden
 # test edilmiştir (kanalın kendi resmi karasal/uydu yayınının ücretsiz web
 # yeniden yayınıdır).
+# NOT: Sözcü TV yalnızca YouTube üzerinden yayın yapar. Link, yanındaki
+# sozcu_proxy.py betiği çalışırken geçerlidir; betik her istekte güncel
+# YouTube HLS adresini bulup yönlendirir. Betiği başka bir cihazda
+# çalıştırıyorsan 127.0.0.1 yerine o cihazın yerel IP adresini yaz.
 
 #EXTINF:-1 tvg-id="TRT1.tr" tvg-logo="" group-title="Genel",TRT 1
 https://tv-trt1.medya.trt.com.tr/master.m3u8
@@ -47,6 +51,9 @@ https://canli.tgrthaber.com/tgrt.m3u8
 #EXTINF:-1 tvg-id="HalkTV.tr" tvg-logo="" group-title="Haber",Halk TV
 https://halktv-live.daioncdn.net/halktv/halktv.m3u8
 
+#EXTINF:-1 tvg-id="SozcuTV.tr" tvg-logo="" group-title="Haber",Sözcü TV
+http://127.0.0.1:8765/sozcu.m3u8
+
 #EXTINF:-1 tvg-id="24TV.tr" tvg-logo="" group-title="Haber",24 TV
 https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
 
@@ -79,9 +86,6 @@ https://tv-trtavaz.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="TRTWorld.tr" tvg-logo="" group-title="TRT",TRT World
 https://tv-trtworld.medya.trt.com.tr/master.m3u8
-
-#EXTINF:-1 tvg-id="TRTTurk.tr" tvg-logo="" group-title="TRT",TRT Türk
-https://tv-trtturk.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="Kanal7.tr" tvg-logo="" group-title="Dini",Kanal 7
 https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8

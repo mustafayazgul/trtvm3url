@@ -81,6 +81,9 @@ https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTMuzik.tr" tvg-logo="" group-title="TRT",TRT Müzik
 https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 
+#EXTINF:-1 tvg-id="TRTTurk.tr" tvg-logo="" group-title="TRT",TRT Türk
+https://tv-trtturk.medya.trt.com.tr/master.m3u8
+
 #EXTINF:-1 tvg-id="TRTAvaz.tr" tvg-logo="" group-title="TRT",TRT Avaz
 https://tv-trtavaz.medya.trt.com.tr/master.m3u8
 

@@ -7,10 +7,10 @@
 # NOT: ARB Güneş TV, üçüncü taraf bir yayın altyapısı (canlitv.fun) üzerinden
 # test edilmiştir (kanalın kendi resmi karasal/uydu yayınının ücretsiz web
 # yeniden yayınıdır).
-# NOT: Sözcü TV yalnızca YouTube üzerinden yayın yapar. Bu link evdeki
-# yt-dlp sunucusuna (Cloudflare Tunnel) gider; sunucu her seferinde güncel
-# YouTube HLS adresine yönlendirir. Sunucu kapalıyken veya ev ağı dışından
-# açılmaz.
+# NOT: Sözcü TV (yalnızca YouTube) ve CNBC-e (süreli imzalı link) evdeki
+# yayın sunucusuna (tv.mustafayazgulu.com, Cloudflare Tunnel) gider; sunucu
+# her seferinde güncel adrese yönlendirir. Sunucu kapalıyken veya ev ağı
+# dışından açılmaz.
 
 #EXTINF:-1 tvg-id="TRT1.tr" tvg-logo="" group-title="Genel",TRT 1
 https://tv-trt1.medya.trt.com.tr/master.m3u8
@@ -48,6 +48,9 @@ https://tv.ensonhaber.com/haberturk/haberturk.m3u8
 #EXTINF:-1 tvg-id="BloombergHT.tr" tvg-logo="" group-title="Haber",Bloomberg HT
 https://ciner.daioncdn.net/bloomberght/bloomberght.m3u8
 
+#EXTINF:-1 tvg-id="CNBCe.tr" tvg-logo="" group-title="Haber",CNBC-e
+https://tv.mustafayazgulu.com/cnbce.m3u8
+
 #EXTINF:-1 tvg-id="TGRTHaber.tr" tvg-logo="" group-title="Haber",TGRT Haber
 https://canli.tgrthaber.com/tgrt.m3u8
 
@@ -72,6 +75,9 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
 #EXTINF:-1 tvg-id="TLC.tr" tvg-logo="" group-title="Genel",TLC
 https://dogus.daioncdn.net/tlc/tlc.m3u8?app=1aca0aa1-06e3-41ff-a8e5-38d7df475469
 
+#EXTINF:-1 tvg-id="DMAX.tr" tvg-logo="" group-title="Genel",DMAX
+https://dogus.daioncdn.net/dmax/dmax.m3u8?app=5a02c599-d17e-4982-9b04-090934d51af7&ce=3
+
 #EXTINF:-1 tvg-id="TRTSpor.tr" tvg-logo="" group-title="Spor",TRT Spor
 https://tv-trtspor1.medya.trt.com.tr/master.m3u8
 
@@ -84,14 +90,14 @@ https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTMuzik.tr" tvg-logo="" group-title="TRT",TRT Müzik
 https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 
-#EXTINF:-1 tvg-id="TRTTurk.tr" tvg-logo="" group-title="TRT",TRT Türk
-https://tv-trtturk.medya.trt.com.tr/master.m3u8
-
 #EXTINF:-1 tvg-id="TRTAvaz.tr" tvg-logo="" group-title="TRT",TRT Avaz
 https://tv-trtavaz.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="TRTWorld.tr" tvg-logo="" group-title="TRT",TRT World
 https://tv-trtworld.medya.trt.com.tr/master.m3u8
+
+#EXTINF:-1 tvg-id="TRTTurk.tr" tvg-logo="" group-title="TRT",TRT Türk
+https://tv-trtturk.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="Kanal7.tr" tvg-logo="" group-title="Dini",Kanal 7
 https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8
@@ -114,5 +120,5 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
 #EXTINF:-1 tvg-id="DisneyJr.tr" tvg-logo="" group-title="Çocuk",Disney Jr.
 https://saran-live.ercdn.net/disneyjunior/index.m3u8
 
-#EXTINF:-1 tvg-id="Stoon.tr" tvg-logo="" group-title="Çocuk",Stoon.
+#EXTINF:-1 tvg-id="Spacetoon.tr" tvg-logo="" group-title="Çocuk",Spacetoon
 https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8
